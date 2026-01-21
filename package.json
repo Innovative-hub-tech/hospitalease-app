@@ -4,7 +4,7 @@
   "description": "Healthcare management system with patient transfer and reactivation",
   "private": true,
   "scripts": {
-    "build": "cd anything/_/apps/web && npm install && npm run build",
-    "dev": "cd anything/_/apps/web && npm run dev"
+    "build": "cd web-app && npm install && npm run build",
+    "dev": "cd web-app && npm run dev"
   }
 }
