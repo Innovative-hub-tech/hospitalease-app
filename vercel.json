@@ -1,0 +1,7 @@
+{
+  "buildCommand": "cd anything/_/apps/web && npm install && npm run build",
+  "outputDirectory": "anything/_/apps/web/dist",
+  "env": {
+    "DATABASE_URL": "@DATABASE_URL"
+  }
+}

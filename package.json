@@ -1,0 +1,10 @@
+{
+  "name": "hospitalease-app",
+  "version": "1.0.0",
+  "description": "Healthcare management system with patient transfer and reactivation",
+  "private": true,
+  "scripts": {
+    "build": "cd anything/_/apps/web && npm install && npm run build",
+    "dev": "cd anything/_/apps/web && npm run dev"
+  }
+}
