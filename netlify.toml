@@ -1,0 +1,11 @@
+[build]
+  command = "cd web-app && npm install && npm run build"
+  publish = "web-app/dist"
+
+[env]
+  DATABASE_URL = "postgresql://neondb_owner:npg_NWeKU1gJI3GF@ep-patient-king-aby4il44-pooler.eu-west-2.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
