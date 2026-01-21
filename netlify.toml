@@ -1,5 +1,5 @@
 [build]
-  command = "cd web-app && npm install --legacy-peer-deps && npm run build"
+  command = "cd web-app && npm ci --legacy-peer-deps && npm run build"
   publish = "web-app/build/client"
 
 [env]
